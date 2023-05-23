@@ -1,11 +1,10 @@
-//Your code comes here
-let thisText = "Picur es Mano";
+let thisText = "This text";
 function logIntoTerminal(toLog, secondToLog) {
-    let localText = "Niwin";
+    let localText = "Apple";
     console.log(thisText);
     console.log(localText);
     function fourthFunction()  {;
-        console.log("Csipet")
+        console.log("Pear")
     };
     fourthFunction();
     console.log(toLog, secondToLog)
@@ -15,13 +14,13 @@ logIntoTerminal("Purple", a);
 
 function anotherFunction() {
     let b = 2;
-    logIntoTerminal("Chameleon", b);
+    logIntoTerminal("Blue", b);
 };
 anotherFunction();
 
 let thirdFunction = function () {
     let c = 4;
-    logIntoTerminal("Blue", c);
+    logIntoTerminal("Red", c);
 };
 thirdFunction();
 
@@ -29,11 +28,11 @@ function greetings(firstName){
     return "Greetings, " + firstName;
 
 };
-console.log(greetings("Galiah"));
+console.log(greetings("Anne"));
 console.log(greetings("Adaline"));
-console.log(greetings("Galleybrid"));
-console.log(greetings("Assiera"));
-console.log(greetings("Ganjolock"));
+console.log(greetings("John"));
+console.log(greetings("George"));
+console.log(greetings("Ursula"));
 
 
 
